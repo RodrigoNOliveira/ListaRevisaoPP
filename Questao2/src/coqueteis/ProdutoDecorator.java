@@ -1,6 +1,6 @@
 package coqueteis;
 
-public class ProdutoDecoretor implements Produto{
+public class ProdutoDecorator implements Produto{
 
     protected Produto produto;
 
@@ -8,7 +8,7 @@ public class ProdutoDecoretor implements Produto{
 
 
     
-    public ProdutoDecoretor(Produto produto) {
+    public ProdutoDecorator(Produto produto) {
         this.produto = produto;
     }
 

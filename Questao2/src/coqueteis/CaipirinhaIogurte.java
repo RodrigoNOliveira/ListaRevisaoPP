@@ -1,6 +1,6 @@
 package coqueteis;
 
-public class CaipirinhaIogurte extends ProdutoDecoretor{
+public class CaipirinhaIogurte extends ProdutoDecorator{
 
     public CaipirinhaIogurte(Produto produto) {
         super(produto);
